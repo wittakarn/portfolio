@@ -1,0 +1,9 @@
+label.error {
+    color: red;
+	display:block;
+}
+
+span.error {
+    color: red;
+	font-weight: bold;
+}
