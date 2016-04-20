@@ -25,7 +25,12 @@ include DOCUMENT_ROOT.'include/permission.php';
 
 
   <!-- Custom CSS -->
+  <link href="<?php echo ROOT; ?>css/theme.css" rel="stylesheet">
   <link href="<?php echo ROOT; ?>css/stylish-portfolio.css" rel="stylesheet">
+
+  <!-- Image gallery CSS -->
+  <link href="<?php echo ROOT; ?>css/blueimp-gallery.css" rel="stylesheet">
+  <link href="<?php echo ROOT; ?>css/blueimp-gallery-indicator.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
   <link href="<?php echo ROOT; ?>font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -36,7 +41,12 @@ include DOCUMENT_ROOT.'include/permission.php';
     ================================================== -->
     <script src="<?php echo ROOT; ?>lib/jquery/jquery-1.11.3.min.js"></script>
     <script src="<?php echo ROOT; ?>bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- Custom Theme JavaScript -->
+    <!-- Image gallery JavaScript -->
+    <script src="<?php echo ROOT; ?>lib/jquery/blueimp-helper.js"></script>
+    <script src="<?php echo ROOT; ?>lib/jquery/blueimp-gallery.js"></script>
+    <script src="<?php echo ROOT; ?>lib/jquery/blueimp-gallery-fullscreen.js"></script>
+    <script src="<?php echo ROOT; ?>lib/jquery/blueimp-gallery-indicator.js"></script>
+    <script src="<?php echo ROOT; ?>lib/jquery/jquery.blueimp-gallery.js"></script>
     <script>
     // Closes the sidebar menu
     $(document)
@@ -69,6 +79,16 @@ include DOCUMENT_ROOT.'include/permission.php';
               }
             }
           });
+        });
+
+        $("#ipst").click(function(event) {
+          event.preventDefault();
+          event = event || window.event;
+          var target = event.target || event.srcElement,
+          link = target.src ? target.parentNode : target,
+          options = {index: link, event: event},
+          links = $("#links-" + $(this).attr("id")).find('a');
+          blueimp.Gallery(links, options);
         });
 
       });
@@ -165,20 +185,20 @@ include DOCUMENT_ROOT.'include/permission.php';
             <h3>The buttons below are impossible to resist.</h3>
             <a href="#" class="btn btn-lg btn-light">Click Me!</a>
             <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-            -->
-          </div>
+          -->
         </div>
       </div>
-    </aside>
+    </div>
+  </aside>
 
-    <!-- Footer -->
-    <footer>
-      <section id="contact" class="contact">
-        <?php
-        include DOCUMENT_ROOT.'include/index-contact.php';
-        ?>
-      </footer>
+  <!-- Footer -->
+  <footer>
+    <section id="contact" class="contact">
+      <?php
+      include DOCUMENT_ROOT.'include/index-contact.php';
+      ?>
+    </footer>
 
-    </body>
+  </body>
 
-    </html>
+  </html>
