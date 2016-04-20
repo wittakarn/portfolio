@@ -36,12 +36,6 @@ include DOCUMENT_ROOT.'include/permission.php';
     ================================================== -->
     <script src="<?php echo ROOT; ?>lib/jquery/jquery-1.11.3.min.js"></script>
     <script src="<?php echo ROOT; ?>bootstrap/dist/js/bootstrap.min.js"></script>
-    
-    <script src="<?php echo ROOT; ?>lib/jquery/jquery.validate.min.js" type="text/javascript"></script>
-    <script src="<?php echo ROOT; ?>lib/jquery/jquery.validate.custom.message.js" type="text/javascript"></script>
-    <script src="<?php echo ROOT; ?>lib/jquery/additional-methods.min.js"></script>
-    <script src="<?php echo ROOT; ?>lib/jquery/jquery.blockUI.js" type="text/javascript"></script>
-    <script src="<?php echo ROOT; ?>lib/jquery/jquery.blockUI.custom.message.js" type="text/javascript"></script>
     <!-- Custom Theme JavaScript -->
     <script>
     // Closes the sidebar menu
@@ -133,8 +127,25 @@ include DOCUMENT_ROOT.'include/permission.php';
 
     <!-- Callout -->
     <aside class="callout">
-      <div class="text-vertical-center">
-        <h1>Vertically Centered Text</h1>
+      <div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>ข้อดีของการสั่งพัฒนาโปรแกรม</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-1 col-md-1 col-sm-1"></div>
+          <div class="col-lg-10 col-md-10 col-sm-10">
+            <ul>
+              <li>ได้โปรแกรม ตรงตามความต้องการกับงานของท่านอย่างแน่นอน</li>
+              <li>ทันสมัย ใช้งานสะดวก ออกแบบสวยงาม เหมาะกับ User ทุกระดับ</li>
+              <li>ประเมินราคาจากขอบเขตงานจริง ในอนาคตท่านสามารถ สั่งพัฒนาโปรแกรมต่อยอดได้ ทันที</li>
+              <li>บริการ ดูแล และให้คำปรึกษา ด้าน Software จากทีมงาน และ ผู้เชี่ยวชาญโดยตรง</li>
+              <li>มีการให้บริการอบรมการใช้งานให้แก่ User ใช้งาน</li>
+            </ul>
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-1"></div>
+        </div>
       </div>
     </aside>
 
@@ -150,9 +161,11 @@ include DOCUMENT_ROOT.'include/permission.php';
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
+            <!--
             <h3>The buttons below are impossible to resist.</h3>
             <a href="#" class="btn btn-lg btn-light">Click Me!</a>
             <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+            -->
           </div>
         </div>
       </div>

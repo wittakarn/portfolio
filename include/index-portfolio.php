@@ -5,30 +5,36 @@
       <hr class="small">
       <div class="row">
         <div class="col-md-6">
+          <p>ระบบแบบสอบถาม</p>
           <div class="portfolio-item">
             <a href="#">
-              <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+              <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg"/>
             </a>
           </div>
         </div>
         <div class="col-md-6">
+          <p>ระบบลางาน</p>
           <div class="portfolio-item">
             <a href="#">
-              <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+              <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"/>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p>ระบบประวัติประกันภัย</p>
+          <div class="portfolio-item">
+            <a href="#">
+              <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg"/>
             </a>
           </div>
         </div>
         <div class="col-md-6">
+          <p>ระบบขายสินค้า ออกใบเสนอราคา</p>
           <div class="portfolio-item">
             <a href="#">
-              <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="portfolio-item">
-            <a href="#">
-              <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+              <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg"/>
             </a>
           </div>
         </div>
