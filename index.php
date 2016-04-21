@@ -81,7 +81,7 @@ include DOCUMENT_ROOT.'include/permission.php';
           });
         });
 
-        $("#ipst").click(function(event) {
+        $(".portfolio-item").find("a").click(function(event) {
           event.preventDefault();
           event = event || window.event;
           var target = event.target || event.srcElement,

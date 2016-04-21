@@ -19,7 +19,7 @@
           </li>
         </ul>
         <hr class="small">
-        <p class="text-muted">Copyright &copy; Your Website 2016</p>
+        <p class="text-muted">Copyright &copy; thaisoftplus 2016</p>
       </div>
     </div>
   </div>

@@ -15,7 +15,7 @@
         <div class="col-md-6">
           <p>ระบบลางาน</p>
           <div class="portfolio-item">
-            <a href="#">
+            <a id="leave" href="#">
               <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"/>
             </a>
           </div>
@@ -25,7 +25,7 @@
         <div class="col-md-6">
           <p>ระบบประวัติประกันภัย</p>
           <div class="portfolio-item">
-            <a href="#">
+            <a id="effcl" href="#">
               <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg"/>
             </a>
           </div>
@@ -33,14 +33,14 @@
         <div class="col-md-6">
           <p>ระบบขายสินค้า ออกใบเสนอราคา</p>
           <div class="portfolio-item">
-            <a href="#">
+            <a id="sequot" href="#">
               <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg"/>
             </a>
           </div>
         </div>
       </div>
       <!-- /.row (nested) -->
-      <a href="#" class="btn btn-dark">View More Items</a>
+      <a href="#" class="btn btn-dark">เพิ่มเติม</a>
     </div>
     <!-- /.col-lg-10 -->
   </div>
@@ -50,20 +50,65 @@
 
 
 <div id="links-ipst" class="links hidden-gallery">
-  <a href="<?php echo ROOT; ?>img/ipst/1.jpg" title="1">
-    <img src="<?php echo ROOT; ?>img/ipst/1.jpg" alt="1">
+  <a href="<?php echo ROOT; ?>img/ipst/1.jpg" title="หน้าแรก">
+    <img src="<?php echo ROOT; ?>img/ipst/1.jpg" alt="หน้าแรก">
   </a>
-  <a href="<?php echo ROOT; ?>img/ipst/2.jpg" title="2">
-    <img src="<?php echo ROOT; ?>img/ipst/2.jpg" alt="2">
+  <a href="<?php echo ROOT; ?>img/ipst/2.jpg" title="หน้าเข้าสู่ระบบ">
+    <img src="<?php echo ROOT; ?>img/ipst/2.jpg" alt="หน้าเข้าสู่ระบบ">
   </a>
-  <a href="<?php echo ROOT; ?>img/ipst/3.jpg" title="3">
-    <img src="<?php echo ROOT; ?>img/ipst/3.jpg" alt="3">
+  <a href="<?php echo ROOT; ?>img/ipst/3.jpg" title="คำชี้แจงแบบสอบถาม">
+    <img src="<?php echo ROOT; ?>img/ipst/3.jpg" alt="คำชี้แจงแบบสอบถาม">
   </a>
-  <a href="<?php echo ROOT; ?>img/ipst/4.jpg" title="4">
-    <img src="<?php echo ROOT; ?>img/ipst/4.jpg" alt="4">
+  <a href="<?php echo ROOT; ?>img/ipst/4.jpg" title="หน้าจอบันทึกแบบสอบถาม online">
+    <img src="<?php echo ROOT; ?>img/ipst/4.jpg" alt="หน้าจอบันทึกแบบสอบถาม online">
   </a>
-  <a href="<?php echo ROOT; ?>img/ipst/5.jpg" title="5">
-    <img src="<?php echo ROOT; ?>img/ipst/5.jpg" alt="5">
+  <a href="<?php echo ROOT; ?>img/ipst/5.jpg" title="แสดงผลแบบสอบถามเป็นสถิติ ด้วยการประมวลผลจากฐานข้อมูล">
+    <img src="<?php echo ROOT; ?>img/ipst/5.jpg" alt="แสดงผลแบบสอบถามเป็นสถิติ ด้วยการประมวลผลจากฐานข้อมูล">
+  </a>
+</div>
+
+<div id="links-leave" class="links hidden-gallery">
+  <a href="<?php echo ROOT; ?>img/leave/1.jpg" title="หน้าแรก แสดงสถิติการลา">
+    <img src="<?php echo ROOT; ?>img/leave/1.jpg" alt="หน้าแรก แสดงสถิติการลา">
+  </a>
+  <a href="<?php echo ROOT; ?>img/leave/2.jpg" title="หน้าบันทึกใบลา">
+    <img src="<?php echo ROOT; ?>img/leave/2.jpg" alt="หน้าบันทึกใบลา">
+  </a>
+  <a href="<?php echo ROOT; ?>img/leave/3.jpg" title="หน้าสอบถามสถานะใบลา">
+    <img src="<?php echo ROOT; ?>img/leave/3.jpg" alt="หน้าสอบถามสถานะใบลา">
+  </a>
+  <a href="<?php echo ROOT; ?>img/leave/4.jpg" title="หน้าแสดงปฏิทินการลาของผู้ใช้งาน">
+    <img src="<?php echo ROOT; ?>img/leave/4.jpg" alt="หน้าแสดงปฏิทินการลาของผู้ใช้งาน">
+  </a>
+</div>
+
+<div id="links-effcl" class="links hidden-gallery">
+  <a href="<?php echo ROOT; ?>img/effcl/1.jpg" title="ส่วนบันทึกประกันภัยรถยนต์">
+    <img src="<?php echo ROOT; ?>img/effcl/1.jpg" alt="ส่วนบันทึกประกันภัยรถยนต์">
+  </a>
+  <a href="<?php echo ROOT; ?>img/effcl/2.jpg" title="ส่วนบันทึก พ.ร.บ. รถยนต์">
+    <img src="<?php echo ROOT; ?>img/effcl/2.jpg" alt="ส่วนบันทึก พ.ร.บ. รถยนต์">
+  </a>
+  <a href="<?php echo ROOT; ?>img/effcl/3.jpg" title="ส่วนบันทึกประกันภัยสินค้า">
+    <img src="<?php echo ROOT; ?>img/effcl/3.jpg" alt="ส่วนบันทึกประกันภัยสินค้า">
+  </a>
+</div>
+
+<div id="links-sequot" class="links hidden-gallery">
+  <a href="<?php echo ROOT; ?>img/sequot/1.jpg" title="หน้าเพิ่มรายการสินค้า">
+    <img src="<?php echo ROOT; ?>img/sequot/1.jpg" alt="หน้าเพิ่มรายการสินค้า">
+  </a>
+  <a href="<?php echo ROOT; ?>img/sequot/2.jpg" title="หน้าค้นหาลูกค้า">
+    <img src="<?php echo ROOT; ?>img/sequot/2.jpg" alt="หน้าค้นหาลูกค้า">
+  </a>
+  <a href="<?php echo ROOT; ?>img/sequot/3.jpg" title="หน้าปรับราคาสินค้า">
+    <img src="<?php echo ROOT; ?>img/sequot/3.jpg" alt="หน้าปรับราคาสินค้า">
+  </a>
+  <a href="<?php echo ROOT; ?>img/sequot/4.jpg" title="หน้าออกใบเสนอราคา">
+    <img src="<?php echo ROOT; ?>img/sequot/4.jpg" alt="หน้าออกใบเสนอราคา">
+  </a>
+  <a href="<?php echo ROOT; ?>img/sequot/5.jpg" title="PDF แสดงใบเสนอราคา">
+    <img src="<?php echo ROOT; ?>img/sequot/5.jpg" alt="PDF แสดงใบเสนอราคา">
   </a>
 </div>
 
@@ -73,6 +118,5 @@
   <a class="prev">‹</a>
   <a class="next">›</a>
   <a class="close">×</a>
-  <a class="play-pause"></a>
   <ol class="indicator"></ol>
 </div>
