@@ -5,37 +5,38 @@ require_once("config.php");
 include DOCUMENT_ROOT.'include/permission.php';
 ?>
 
-<!DOCTYPE html>
-<html lang="th">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="รับเขียนโปรแกรม รับทำเว็บไซต์ พัฒนาระบบฐานข้อมูล">
-  <meta name="author" content="">
+  <!DOCTYPE html>
+  <html lang="th">
 
-  <title>รับเขียนโปรแกรม</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="รับเขียนโปรแกรม รับทำเว็บไซต์ พัฒนาระบบฐานข้อมูล">
+    <meta name="author" content="">
 
-  <link rel='shortcut icon' href='<?php echo ROOT; ?>favicon.ico' type='image/x-icon'/ >
-  <link rel="icon" href="<?php echo ROOT; ?>favicon.ico" type="image/x-icon">
+    <title>รับเขียนโปรแกรม, พัฒนาระบบ, พัฒนาระบบฐานข้อมูล</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="<?php echo ROOT; ?>bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel='shortcut icon' href='<?php echo ROOT; ?>favicon.ico' type='image/x-icon' />
+    <link rel="icon" href="<?php echo ROOT; ?>favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap core CSS -->
+    <link href="<?php echo ROOT; ?>bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
-  <!-- Custom CSS -->
-  <link href="<?php echo ROOT; ?>css/theme.css" rel="stylesheet">
-  <link href="<?php echo ROOT; ?>css/stylish-portfolio.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="<?php echo ROOT; ?>css/theme.css" rel="stylesheet">
+    <link href="<?php echo ROOT; ?>css/stylish-portfolio.css" rel="stylesheet">
 
-  <!-- Image gallery CSS -->
-  <link href="<?php echo ROOT; ?>css/blueimp-gallery.css" rel="stylesheet">
-  <link href="<?php echo ROOT; ?>css/blueimp-gallery-indicator.css" rel="stylesheet">
+    <!-- Image gallery CSS -->
+    <link href="<?php echo ROOT; ?>css/blueimp-gallery.css" rel="stylesheet">
+    <link href="<?php echo ROOT; ?>css/blueimp-gallery-indicator.css" rel="stylesheet">
 
-  <!-- Custom Fonts -->
-  <link href="<?php echo ROOT; ?>font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Custom Fonts -->
+    <link href="<?php echo ROOT; ?>font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-  <link rel="stylesheet" type="text/css" href="<?php echo ROOT; ?>css/error.message.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo ROOT; ?>css/error.message.css" />
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -47,52 +48,6 @@ include DOCUMENT_ROOT.'include/permission.php';
     <script src="<?php echo ROOT; ?>lib/jquery/blueimp-gallery-fullscreen.js"></script>
     <script src="<?php echo ROOT; ?>lib/jquery/blueimp-gallery-indicator.js"></script>
     <script src="<?php echo ROOT; ?>lib/jquery/jquery.blueimp-gallery.js"></script>
-    <script>
-    // Closes the sidebar menu
-    $(document)
-    .ready(
-      function() {
-
-        $("#menu-close").click(function(e) {
-          e.preventDefault();
-          $("#sidebar-wrapper").toggleClass("active");
-        });
-
-        // Opens the sidebar menu
-        $("#menu-toggle").click(function(e) {
-          e.preventDefault();
-          $("#sidebar-wrapper").toggleClass("active");
-        });
-
-        // Scrolls to the selected menu item on the page
-        $(function() {
-          $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-              if (target.length) {
-                $('html,body').animate({
-                  scrollTop: target.offset().top
-                }, 1000);
-                return false;
-              }
-            }
-          });
-        });
-
-        $(".portfolio-item").find("a").click(function(event) {
-          event.preventDefault();
-          event = event || window.event;
-          var target = event.target || event.srcElement,
-          link = target.src ? target.parentNode : target,
-          options = {index: link, event: event},
-          links = $("#links-" + $(this).attr("id")).find('a');
-          blueimp.Gallery(links, options);
-        });
-
-      });
-    </script>
   </head>
 
   <body>
@@ -103,22 +58,22 @@ include DOCUMENT_ROOT.'include/permission.php';
       <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
         <li class="sidebar-brand">
-          <a href="#top"  onclick = $("#menu-close").click(); >เมนู</a>
+          <a href="#top" onclick=$ ( "#menu-close").click();>เมนู</a>
         </li>
         <li>
-          <a href="#top" onclick = $("#menu-close").click(); >หน้าแรก</a>
+          <a href="#top" onclick=$ ( "#menu-close").click();>หน้าแรก</a>
         </li>
         <li>
-          <a href="#services" onclick = $("#menu-close").click(); >บริการต่างๆ</a>
+          <a href="#services" onclick=$ ( "#menu-close").click();>บริการต่างๆ</a>
         </li>
         <li>
-          <a href="#about" onclick = $("#menu-close").click(); >เกี่ยวกับเรา</a>
+          <a href="#about" onclick=$ ( "#menu-close").click();>เกี่ยวกับเรา</a>
         </li>
         <li>
-          <a href="#portfolio" onclick = $("#menu-close").click(); >ผลงานของเรา</a>
+          <a href="#portfolio" onclick=$ ( "#menu-close").click();>ผลงานของเรา</a>
         </li>
         <li>
-          <a href="#contact" onclick = $("#menu-close").click(); >ติดต่อเรา</a>
+          <a href="#contact" onclick=$ ( "#menu-close").click();>ติดต่อเรา</a>
         </li>
       </ul>
     </nav>
@@ -157,11 +112,11 @@ include DOCUMENT_ROOT.'include/permission.php';
           <div class="col-lg-1 col-md-1 col-sm-1"></div>
           <div class="col-lg-10 col-md-10 col-sm-10">
             <ul>
-              <li>ได้โปรแกรม ตรงตามความต้องการกับงานของท่านอย่างแน่นอน</li>
-              <li>ทันสมัย ใช้งานสะดวก ออกแบบสวยงาม เหมาะกับ User ทุกระดับ</li>
-              <li>ประเมินราคาจากขอบเขตงานจริง ในอนาคตท่านสามารถ สั่งพัฒนาโปรแกรมต่อยอดได้ ทันที</li>
+              <li>ได้โปรแกรม ตรงตามความต้องการกับงานของลูกค้าอย่างแน่นอน</li>
+              <li>ทันสมัย ใช้งานสะดวก ออกแบบสวยงาม เหมาะกับผู้ใช้งานทุกระดับ</li>
+              <li>ประเมินราคาจากขอบเขตงานจริง ในอนาคตท่านสามารถสั่งพัฒนาโปรแกรมต่อยอดได้ ทันที</li>
               <li>บริการ ดูแล และให้คำปรึกษา ด้าน Software จากทีมงาน และ ผู้เชี่ยวชาญโดยตรง</li>
-              <li>มีการให้บริการอบรมการใช้งานให้แก่ User ใช้งาน</li>
+              <li>มีการให้บริการอบรมการใช้งานให้แก่ผู้ใช้งานใช้งาน</li>
             </ul>
           </div>
           <div class="col-lg-1 col-md-1 col-sm-1"></div>
@@ -186,19 +141,20 @@ include DOCUMENT_ROOT.'include/permission.php';
             <a href="#" class="btn btn-lg btn-light">Click Me!</a>
             <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
           -->
+          </div>
         </div>
       </div>
-    </div>
-  </aside>
+    </aside>
 
-  <!-- Footer -->
-  <footer>
-    <section id="contact" class="contact">
-      <?php
+    <!-- Footer -->
+    <footer>
+      <section id="contact" class="contact">
+        <?php
       include DOCUMENT_ROOT.'include/index-contact.php';
-      ?>
+        ?>
     </footer>
 
   </body>
 
   </html>
+  <script src="<?php echo ROOT; ?>js/menu-event.js"></script>

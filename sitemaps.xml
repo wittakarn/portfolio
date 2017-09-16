@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>http://www.thaisoftplus.com/develop-software.php</loc>
+        <lastmod>2017-09-16</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>http://www.thaisoftplus.com/design-website.php</loc>
+        <lastmod>2017-09-16</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>http://www.thaisoftplus.com/database-management.php</loc>
+        <lastmod>2017-09-16</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>http://www.thaisoftplus.com/integration.php</loc>
+        <lastmod>2017-09-16</lastmod>
+    </sitemap>
+</sitemapindex>

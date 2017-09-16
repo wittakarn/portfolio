@@ -11,10 +11,11 @@
               <i class="fa fa-keyboard-o fa-stack-1x text-primary"></i>
             </span>
             <h4>
-              <strong>พัฒนาระบบ</strong>
+              <a href="services/develop-software.php" class="btn btn-light" title="พัฒนาระบบ">
+                <b>พัฒนาระบบ</b>
+              </a>
             </h4>
             <p>พัฒนา Window Application และ Web Application ตามความต้องการของลูกค้า</p>
-            <a href="#" class="btn btn-light">เพิ่มเติม</a>
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
@@ -24,10 +25,11 @@
               <i class="fa fa-cloud fa-stack-1x text-primary"></i>
             </span>
             <h4>
-              <strong>ออบแบบเว็บไซต์</strong>
+              <a href="services/design-website.php" class="btn btn-light" title="ออบแบบเว็บไซต์">
+                <b>ออบแบบเว็บไซต์</b>
+              </a>
             </h4>
             <p>พัฒนา Web Site แบบ responsive แสดงผลได้อย่างเหมาะสม บนอุปกรณ์ที่แตกต่างกัน</p>
-            <a href="#" class="btn btn-light">เพิ่มเติม</a>
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
@@ -37,10 +39,11 @@
               <i class="fa fa-database fa-stack-1x text-primary"></i>
             </span>
             <h4>
-              <strong>จัดการฐานข้อมูล</strong>
+              <a href="services/database-management.php" class="btn btn-light" title="จัดการฐานข้อมูล">
+                <b>จัดการฐานข้อมูล</b>
+              </a>
             </h4>
             <p>พัฒนาระบบฐานข้อมูลด้วยประสบการณ์มากกว่า 10 ปี</p>
-            <a href="#" class="btn btn-light">เพิ่มเติม</a>
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
@@ -50,10 +53,11 @@
               <i class="fa fa-connectdevelop fa-stack-1x text-primary"></i>
             </span>
             <h4>
-              <strong>เชื่อมต่อกับระบบต่างๆ</strong>
+              <a href="services/integration.php" class="btn btn-light" title="เชื่อมต่อกับระบบต่างๆ">
+              <b>เชื่อมต่อกับระบบต่างๆ</b>
+              </a>
             </h4>
             <p>เขียนโปรแกรมเชื่อมต่อกับระบบภายนอก เช่น Facebook, Google Map</p>
-            <a href="#" class="btn btn-light">เพิ่มเติม</a>
           </div>
         </div>
       </div>

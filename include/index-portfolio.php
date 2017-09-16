@@ -5,42 +5,49 @@
       <hr class="small">
       <div class="row">
         <div class="col-md-6">
-          <p>ระบบแบบสอบถาม</p>
+          <h4>
+            <a href="#">ระบบแบบสอบถาม</a>
+          </h4>
           <div class="portfolio-item">
             <a id="ipst" href="#">
-              <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg"/>
+              <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg" alt="ระบบแบบสอบถาม"/>
             </a>
           </div>
         </div>
         <div class="col-md-6">
-          <p>ระบบลางาน</p>
+          <h4>
+            <a>ระบบลางาน</a>
+          </h4>
           <div class="portfolio-item">
             <a id="leave" href="#">
-              <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"/>
+              <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg" alt="ระบบลางาน"/>
             </a>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
-          <p>ระบบประวัติประกันภัย</p>
+          <h4>
+            <a>ระบบประวัติประกันภัย</a>
+          </h4>
           <div class="portfolio-item">
             <a id="effcl" href="#">
-              <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg"/>
+              <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg" alt="ระบบประวัติประกันภัย"/>
             </a>
           </div>
         </div>
         <div class="col-md-6">
-          <p>ระบบขายสินค้า ออกใบเสนอราคา</p>
+          <h4>
+            <a>ระบบขายสินค้า ออกใบเสนอราคา</a>
+          </h4>
           <div class="portfolio-item">
             <a id="sequot" href="#">
-              <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg"/>
+              <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg" alt="ระบบขายสินค้า ออกใบเสนอราคา"/>
             </a>
           </div>
         </div>
       </div>
       <!-- /.row (nested) -->
-      <a href="#" class="btn btn-dark">เพิ่มเติม</a>
     </div>
     <!-- /.col-lg-10 -->
   </div>

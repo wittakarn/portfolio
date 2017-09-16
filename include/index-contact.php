@@ -12,10 +12,10 @@
         <br>
         <ul class="list-inline">
           <li>
-            <a href="https://www.facebook.com/wittakarn.keeratichayakorn"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+            <a href="https://www.facebook.com/wittakarn.keeratichayakorn" title="https://www.facebook.com/wittakarn.keeratichayakorn"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
           </li>
           <li>
-            <a href="https://twitter.com/Wittakarn"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+            <a href="https://twitter.com/Wittakarn" title="https://twitter.com/Wittakarn"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
           </li>
         </ul>
         <hr class="small">

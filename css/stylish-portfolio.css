@@ -16,6 +16,14 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+body div.container{
+    margin-top: 80px;
+}
+
+body p.text-indent{
+    text-indent: 50px;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
