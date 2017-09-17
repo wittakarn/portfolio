@@ -58,22 +58,22 @@ include DOCUMENT_ROOT.'include/permission.php';
       <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
         <li class="sidebar-brand">
-          <a href="#top" onclick=$ ( "#menu-close").click();>เมนู</a>
+          <a href="#top" onclick=$ ( "#menu-close").click(); title="เมนู">เมนู</a>
         </li>
         <li>
-          <a href="#top" onclick=$ ( "#menu-close").click();>หน้าแรก</a>
+          <a href="#top" onclick=$ ( "#menu-close").click(); title="หน้าแรก">หน้าแรก</a>
         </li>
         <li>
-          <a href="#services" onclick=$ ( "#menu-close").click();>บริการต่างๆ</a>
+          <a href="#services" onclick=$ ( "#menu-close").click(); title="บริการต่างๆ">บริการต่างๆ</a>
         </li>
         <li>
-          <a href="#about" onclick=$ ( "#menu-close").click();>เกี่ยวกับเรา</a>
+          <a href="#about" onclick=$ ( "#menu-close").click(); title="เกี่ยวกับเรา">เกี่ยวกับเรา</a>
         </li>
         <li>
-          <a href="#portfolio" onclick=$ ( "#menu-close").click();>ผลงานของเรา</a>
+          <a href="#portfolio" onclick=$ ( "#menu-close").click(); title="ผลงานของเรา">ผลงานของเรา</a>
         </li>
         <li>
-          <a href="#contact" onclick=$ ( "#menu-close").click();>ติดต่อเรา</a>
+          <a href="#contact" onclick=$ ( "#menu-close").click(); title="ติดต่อเรา">ติดต่อเรา</a>
         </li>
       </ul>
     </nav>

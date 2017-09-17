@@ -59,6 +59,7 @@ require_once("../config.php");
             <div class="panel-body row">
               <div class="cpl-md-12">
                 <h2>Window application</h2>
+                <hr/>
                 <p class="text-indent">Window application คือโปรแกรม หรือ กลุ่มของโปรแกรม ที่ออกแบบให้ตรงตามความต้องการของลูกค้า โดยทำงานอยู่บนระบบ
                   Window ซึ่งจะต้องทำการติดตั้งลงบนเครื่องลูกค้าทุกเครื่องที่ต้องการใช้งาน.</p>
                 <p>
@@ -76,6 +77,7 @@ require_once("../config.php");
                   <li>เนื่องจากโปรแกรมอยู่บนเครื่องของลูกค้าแต่ละเครื่องทำให้ลูกค้าแต่ละคนเจอปัญหาที่แตกต่างกันไป</li>
                 </ul>
                 <h2>Web application</h2>
+                <hr/>
                 <p class="text-indent">Web application คือโปรแกรม หรือ กลุ่มของโปรแกรม ที่ออกแบบให้ตรงตามความต้องการของลูกค้า โดยตัวโปรแกรมจะถูกติดตั้งไว้บน
                   Server ซึ่งสามารถเข้าใช้งานได้ผ่าน Browser(Google chrome, Firefox, Internet Explorer, Safari).</p>
                 <p>
@@ -93,14 +95,28 @@ require_once("../config.php");
                   <li>ต้องมีเครื่อง Server</li>
                   <li>ทำงานช้ากว่า Window application</li>
                 </ul>
+                <br/><br/>
+                <h4>
+                  ทางเรามีประสบการณ์ในการรับเขียนโปรแกรมตามความต้องการของลูกค้ามา มากกว่า 10 ปี เราสามารถเขียนได้หลากหลายภาษาดังนี้
+                </h4>
+                <ul>
+                  <li>Java</li>
+                  <li>C#.Net</li>
+                  <li>VB.Net</li>
+                  <li>PHP</li>
+                  <li>Html</li>
+                  <li>Javascript</li>
+                  <li>CSS</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <?php
-        include DOCUMENT_ROOT.'include/services-footer.php';
-      ?>
+    </div>
+    <?php
+      include DOCUMENT_ROOT.'include/services-footer.php';
+    ?>
   </body>
 
   </html>
