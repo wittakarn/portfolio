@@ -117,6 +117,11 @@ require_once("../config.php");
     <?php
       include DOCUMENT_ROOT.'include/services-footer.php';
     ?>
+    <section id="seo" class="call-to-action bg-primary">
+      <?php
+        include DOCUMENT_ROOT.'include/index-seo.php';
+      ?>
+    </section>
   </body>
 
   </html>

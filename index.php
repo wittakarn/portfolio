@@ -13,10 +13,10 @@ include DOCUMENT_ROOT.'include/permission.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="รับเขียนโปรแกรม รับทำเว็บไซต์ พัฒนาระบบฐานข้อมูล">
+    <meta name="description" content="รับเขียนโปรแกรม รับทำเว็บไซต์ พัฒนาระบบฐานข้อมูล ราคาถูก">
     <meta name="author" content="">
 
-    <title>รับเขียนโปรแกรม, พัฒนาระบบ, พัฒนาระบบฐานข้อมูล</title>
+    <title>รับเขียนโปรแกรม พัฒนาระบบ พัฒนาระบบฐานข้อมูล ราคาถูก</title>
 
     <link rel='shortcut icon' href='<?php echo ROOT; ?>favicon.ico' type='image/x-icon' />
     <link rel="icon" href="<?php echo ROOT; ?>favicon.ico" type="image/x-icon">
@@ -58,22 +58,22 @@ include DOCUMENT_ROOT.'include/permission.php';
       <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
         <li class="sidebar-brand">
-          <a href="#top" onclick=$ ( "#menu-close").click(); title="เมนู">เมนู</a>
+          <a href="#top" onclick=$("#menu-close").click(); title="เมนู">เมนู</a>
         </li>
         <li>
-          <a href="#top" onclick=$ ( "#menu-close").click(); title="หน้าแรก">หน้าแรก</a>
+          <a href="#top" onclick=$("#menu-close").click(); title="หน้าแรก">หน้าแรก</a>
         </li>
         <li>
-          <a href="#services" onclick=$ ( "#menu-close").click(); title="บริการต่างๆ">บริการต่างๆ</a>
+          <a href="#services" onclick=$("#menu-close").click(); title="บริการต่างๆ">บริการต่างๆ</a>
         </li>
         <li>
-          <a href="#about" onclick=$ ( "#menu-close").click(); title="เกี่ยวกับเรา">เกี่ยวกับเรา</a>
+          <a href="#about" onclick=$("#menu-close").click(); title="เกี่ยวกับเรา">เกี่ยวกับเรา</a>
         </li>
         <li>
-          <a href="#portfolio" onclick=$ ( "#menu-close").click(); title="ผลงานของเรา">ผลงานของเรา</a>
+          <a href="#portfolio" onclick=$("#menu-close").click(); title="ผลงานของเรา">ผลงานของเรา</a>
         </li>
         <li>
-          <a href="#contact" onclick=$ ( "#menu-close").click(); title="ติดต่อเรา">ติดต่อเรา</a>
+          <a href="#contact" onclick=$("#menu-close").click(); title="ติดต่อเรา">ติดต่อเรา</a>
         </li>
       </ul>
     </nav>
@@ -136,11 +136,6 @@ include DOCUMENT_ROOT.'include/permission.php';
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <!--
-            <h3>The buttons below are impossible to resist.</h3>
-            <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-            <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-          -->
           </div>
         </div>
       </div>
@@ -150,10 +145,16 @@ include DOCUMENT_ROOT.'include/permission.php';
     <footer>
       <section id="contact" class="contact">
         <?php
-      include DOCUMENT_ROOT.'include/index-contact.php';
+          include DOCUMENT_ROOT.'include/index-contact.php';
         ?>
+      </section>
     </footer>
-
+    
+    <section id="seo" class="call-to-action bg-primary">
+      <?php
+        include DOCUMENT_ROOT.'include/index-seo.php';
+      ?>
+    </section>
   </body>
 
   </html>

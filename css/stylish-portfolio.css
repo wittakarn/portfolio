@@ -29,11 +29,11 @@ body div.row .center{
     margin: auto;
 }
 
-body div.service-item{
+body div.service-item, #seo a{
     color: #fff;
 }
 
-body div.service-item:hover{
+body div.service-item:hover, #seo a:hover{
     color: #F1D7D7;
 }
 
