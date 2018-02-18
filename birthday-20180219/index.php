@@ -29,7 +29,15 @@ require_once("../config.php");
 
     <body>
         <div class="container">
-            <h2>สุขสันต์วันเกิดนะต้น</h2>
+            <h2>
+                <span>สุขสันต์วันเกิดนะต้น</span>
+                <span>
+                    <audio controls loop autoplay>
+                        <source src="audios/hbd.mp3" type="audio/mpeg">
+                    </audio>
+                </span>
+            </h2>
+            
             <hr/>
             <div class="row">
                 <div class="col-md-1"></div>
@@ -61,9 +69,6 @@ require_once("../config.php");
         <div class="border-image border-image__left"></div>
         <div class="border-image border-image__right"></div>
         <div id="footer">
-            <audio controls loop autoplay>
-                <source src="audios/hbd.mp3" type="audio/mpeg">
-            </audio>
             <p class="text-muted">
                 Copyright &copy; thaisoftplus 2018
             </p>
