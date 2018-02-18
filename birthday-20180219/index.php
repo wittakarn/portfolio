@@ -60,11 +60,13 @@ require_once("../config.php");
         </div>
         <div class="border-image border-image__left"></div>
         <div class="border-image border-image__right"></div>
-        <audio loop autoplay>
-            <source src="audios/hbd.mp3" type="audio/mpeg">
-        </audio>
         <div id="footer">
-            <p class="text-muted">Copyright &copy; thaisoftplus 2018</p>
+            <audio controls loop autoplay>
+                <source src="audios/hbd.mp3" type="audio/mpeg">
+            </audio>
+            <p class="text-muted">
+                Copyright &copy; thaisoftplus 2018
+            </p>
         </div>
     </body>
 </html>
