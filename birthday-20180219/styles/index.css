@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(to right, rgb(255, 175, 189), rgb(255, 195, 160));
+    font-size: 14px;
+}
+
+p {
+    text-indent: 50px;
+}
+
+h2, b {
+    color: #825517;
+}
+
+b {
+    font-size: 16px;
+}
+
+b.emo {
+    font-size: 20px;
+}
+
+.row {
+    padding-bottom: 50px;
+}
+
+.shuffle__image-container {
+    position: relative;
+}
+
+.shuffle__image-container img {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    border-radius: 10px 80px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.shuffle__image-container img.show {
+    opacity: 1;
+}
+
+#image-1 {
+    cursor: pointer;
+}
+
+#image-3 {
+    cursor: pointer;
+}
