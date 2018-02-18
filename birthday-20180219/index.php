@@ -41,7 +41,7 @@ require_once("../config.php");
             </h2>
             
             <hr/>
-            <div class="row">
+            <div class="row with-padding">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
                     <p>

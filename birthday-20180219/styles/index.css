@@ -21,7 +21,7 @@ b.emo {
     font-size: 20px;
 }
 
-.row {
+.row.with-padding {
     padding-bottom: 50px;
 }
 
