@@ -2,7 +2,7 @@ var $images = $('.shuffle__image-container img');
 var imagesCount = $images.length;
 var animateTime = 4000;
 var minRotateDegree = 3;
-var maxRotateDegree = 7;
+var maxRotateDegree = 4;
 var previousRandomImageNumber = 1;
 
 function bindEvent() {
@@ -48,13 +48,12 @@ function shuffleImage() {
 function showModal() {
     $('#image-1').click(
         function () {
-            $('#showGift').modal('show');
+            $('#showGift1').modal('show');
         }
     );
-
     $('#image-3').click(
         function () {
-            $('#showGift').modal('show');
+            $('#showGift2').modal('show');
         }
     );
 }
