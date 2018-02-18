@@ -31,8 +31,8 @@ require_once("../config.php");
         <div class="container">
             <h2>
                 <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12">สุขสันต์วันเกิดนะต้น</div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-md-8 col-sm-6 col-xs-12">สุขสันต์วันเกิดนะต้น</div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <audio controls loop autoplay>
                             <source src="audios/hbd.mp3" type="audio/mpeg">
                         </audio>
