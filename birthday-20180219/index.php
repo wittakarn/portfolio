@@ -30,12 +30,12 @@ require_once("../config.php");
     <body>
         <div class="container">
             <h2>
-                <span>สุขสันต์วันเกิดนะต้น</span>
-                <span>
+                <div>
                     <audio controls loop autoplay>
                         <source src="audios/hbd.mp3" type="audio/mpeg">
                     </audio>
-                </span>
+                </div>
+                <div>สุขสันต์วันเกิดนะต้น</div>
             </h2>
             
             <hr/>
