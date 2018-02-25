@@ -41,6 +41,7 @@ b.emo {
 
 .border-image__right {
     right: 0;
+    transform: scaleX(-1);
 }
 
 .shuffle__image-container {
