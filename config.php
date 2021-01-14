@@ -1,6 +1,6 @@
 <?php
 define('MAIN_APP_ROOT', '/');
-define('ROOT', '/portfolio/');
+define('ROOT', '/');
 define('DOCUMENT_ROOT', realpath($_SERVER['DOCUMENT_ROOT']).ROOT);
 define('APP_LOG', DOCUMENT_ROOT.'log/error.log');
 define('APP_DOMAIN', $_SERVER['HTTP_HOST']);
