@@ -72,6 +72,9 @@ require_once("config.php");
           <a href="#portfolio" onclick=$("#menu-close").click(); title="ผลงานของเรา">ผลงานของเรา</a>
         </li>
         <li>
+          <a href="#demo" onclick=$("#menu-close").click(); title="ตัวอย่าง">ตัวอย่าง</a>
+        </li>
+        <li>
           <a href="#contact" onclick=$("#menu-close").click(); title="ติดต่อเรา">ติดต่อเรา</a>
         </li>
       </ul>
@@ -131,7 +134,7 @@ require_once("config.php");
     </section>
 
     <!-- Demo application -->
-    <section id="demoApplication" class="portfolio">
+    <section id="demo" class="portfolio">
       <?php
       include DOCUMENT_ROOT.'include/index-demo.php';
       ?>
