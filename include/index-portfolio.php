@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-md-6">
           <h4>
-            <a href="#">ระบบแบบสอบถาม</a>
+            ระบบแบบสอบถาม
           </h4>
           <div class="portfolio-item">
             <a id="ipst" href="#">
@@ -16,7 +16,7 @@
         </div>
         <div class="col-md-6">
           <h4>
-            <a>ระบบลางาน</a>
+            ระบบลางาน
           </h4>
           <div class="portfolio-item">
             <a id="leave" href="#">
@@ -28,7 +28,7 @@
       <div class="row">
         <div class="col-md-6">
           <h4>
-            <a>ระบบประวัติประกันภัย</a>
+            ระบบประวัติประกันภัย
           </h4>
           <div class="portfolio-item">
             <a id="effcl" href="#">
@@ -38,7 +38,7 @@
         </div>
         <div class="col-md-6">
           <h4>
-            <a>ระบบขายสินค้า ออกใบเสนอราคา</a>
+            ระบบขายสินค้า ออกใบเสนอราคา
           </h4>
           <div class="portfolio-item">
             <a id="sequot" href="#">

@@ -58,41 +58,51 @@ require_once("../config.php");
           <div class="panel-body">
             <div class="panel-body row">
               <div class="cpl-md-12">
-                <h2>Window application</h2>
-                <p class="text-indent">Window application คือโปรแกรม หรือ กลุ่มของโปรแกรม ที่ออกแบบให้ตรงตามความต้องการของลูกค้า โดยทำงานอยู่บนระบบ
-                  Window ซึ่งจะต้องทำการติดตั้งลงบนเครื่องลูกค้าทุกเครื่องที่ต้องการใช้งาน.</p>
-                <p>
-                  <u>ข้อดี</u>
+                <h2>ออกแบบเว็บไซต์</h2>
+                <hr/>
+                <p class="text-indent">
+                  การออกแบบเว็บไซต์ที่ดีต้องคำนึงถึงประสบการณ์การใช้งานของผู้ใช้งาน, ความรู้สึกของผู้ใช้งาน, ดูใช้งานง่าย, ทำงานได้รวดเร็ว
+                  ทางเรามีประสบการ์ออกแบบเว็บไซต์มากกว่า 10 ปี โดยใช้หลักการ <a href="https://en.wikipedia.org/wiki/User_experience_design"
+                    title="User experience design" target="_blank">User experience design</a>
                 </p>
-                <ul>
-                  <li>ไม่ต้องมีเครื่อง Server ทำให้เสียค่าใช้จ่ายน้อยกว่า</li>
-                  <li>ทำงานได้รวดเร็วกว่า Web applicaion เพราะติดตั้งอยู่บนเครื่องของผู้ใช้งานโดยตรง ข้อเสีย</li>
-                </ul>
-                <p>
-                  <u>ข้อเสีย</u>
+                <br/><br/>
+                <h3>ระบบขายสินค้า ออกใบเสนอราคา</h3>
+                <hr/>
+                <p class="text-indent">
+                  เป็นระบบที่ทางเราทำให้บริษัท <a href="http://www.sirichaielectric.com/" target="_blank" title="ศิริชัย อิเล็คทริค">ศิริชัย อิเล็คทริค</a> โดยตัวระบบสามารถ ออกใบเสนอราคา, ออกใบเสร็จรับเงิน, ดูสถานะของลูกค้า ฯลฯ. ทุกวันนี้ระบบใช้ออกใบเสร็จรับเงินมากกว่า 500 รายการต่อวัน ทำให้เป็นที่พอใจของลูกค้าเป็นอย่างมาก
                 </p>
-                <ul>
-                  <li>การ Update โปรแกรมทำได้ยากกว่าเพราะต้องไป Update ที่เครื่องใช้งานทุกเครื่อง</li>
-                  <li>เนื่องจากโปรแกรมอยู่บนเครื่องของลูกค้าแต่ละเครื่องทำให้ลูกค้าแต่ละคนเจอปัญหาที่แตกต่างกันไป</li>
-                </ul>
-                <h2>Web application</h2>
-                <p class="text-indent">Web application คือโปรแกรม หรือ กลุ่มของโปรแกรม ที่ออกแบบให้ตรงตามความต้องการของลูกค้า โดยตัวโปรแกรมจะถูกติดตั้งไว้บน
-                  Server ซึ่งสามารถเข้าใช้งานได้ผ่าน Browser(Google chrome, Firefox, Internet Explorer, Safari).</p>
-                <p>
-                  <u>ข้อดี</u>
-                </p>
-                <ul>
-                  <li>ไม่ต้องติดตั้ง Software ทางฝั่งผู้ใช้งานแค่มี Browser ก็สามารถใช้งานได้เลย</li>
-                  <li>การ Update program แค่แก้ไขหรือ Copy โปรแกรมใหม่ไปไว้ที่ Server ก็สามารถใช้งานได้ทันที</li>
-                  <li>เนื่องจาก Update program ทำได้ง่าย ทำให้สะดวกต่อการพัฒนาต่อยอด</li>
-                </ul>
-                <p>
-                  <u>ข้อเสีย</u>
-                </p>
-                <ul>
-                  <li>ต้องมีเครื่อง Server</li>
-                  <li>ทำงานช้ากว่า Window application</li>
-                </ul>
+                <div class="row">
+                  <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h4>เพิ่มรายการสินค้า</h4>
+                        <div class="portfolio-item">
+                          <img class="img-portfolio img-responsive" src="<?php echo ROOT.'img/sequot/1.jpg' ?>" alt="เพิ่มรายการสินค้า" />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <h4>เพิ่มลูกค้า</h4>
+                        <div class="portfolio-item">
+                          <img class="img-portfolio img-responsive" src="<?php echo ROOT.'img/sequot/2.jpg' ?>" alt="เพิ่มลูกค้า" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h4>ปรับราคาสินค้า</h4>
+                        <div class="portfolio-item">
+                          <img class="img-portfolio img-responsive" src="<?php echo ROOT.'img/sequot/3.jpg' ?>" alt="ปรับราคาสินค้า" />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <h4>ขายสินค้า</h4>
+                        <div class="portfolio-item">
+                          <img class="img-portfolio img-responsive" src="<?php echo ROOT.'img/sequot/4.jpg' ?>" alt="ขายสินค้า" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -101,6 +111,11 @@ require_once("../config.php");
       <?php
         include DOCUMENT_ROOT.'include/services-footer.php';
       ?>
+      <section id="seo" class="call-to-action bg-primary">
+        <?php
+          include DOCUMENT_ROOT.'include/index-seo.php';
+        ?>
+      </section>
   </body>
 
   </html>

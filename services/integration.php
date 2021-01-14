@@ -58,41 +58,31 @@ require_once("../config.php");
           <div class="panel-body">
             <div class="panel-body row">
               <div class="cpl-md-12">
-                <h2>Window application</h2>
-                <p class="text-indent">Window application คือโปรแกรม หรือ กลุ่มของโปรแกรม ที่ออกแบบให้ตรงตามความต้องการของลูกค้า โดยทำงานอยู่บนระบบ
-                  Window ซึ่งจะต้องทำการติดตั้งลงบนเครื่องลูกค้าทุกเครื่องที่ต้องการใช้งาน.</p>
-                <p>
-                  <u>ข้อดี</u>
+                <h2>เชื่อต่อกับระบบต่างๆ</h2>
+                <p class="text-indent">
+                  การเชื่อมต่อกับระบบภายนอกเป็นสิ่งที่ขาดไม่ได้ในระบบปัจจุบันนี้ หากท่านต้องการระบบ login ที่สามารถเข้าสู่ระบบของท่านได้ด้วย
+                  <a href="https://www.facebook.com/" title="Facebook" target="_blank">Facebook</a> login การเชื่อมกับ Facebook
+                  เป็นสิ่งที่ขาดไม่ได้ หรือหากท่านต้องการมี <a href="https://maps.google.com" target="_blank">Google map</a>                  บนระบบของท่านการเชื่อมต่อกับ Google ก็เป็นสิ่งจำเป็น ทางเรามีประสบการณ์การเขียนโปรแกรมเชื่อมต่อระบบภายนอกมากมาย
+                  เช่น Google, Facebook, <a href="https://www.google.com/recaptcha" title="reCAPTCHA">reCAPTCHA</a>, <a href="https://en.wikipedia.org/wiki/Single_sign-on"
+                    title="Single sign-on" target="_blank">Single sign-on</a> ฯลฯ
                 </p>
-                <ul>
-                  <li>ไม่ต้องมีเครื่อง Server ทำให้เสียค่าใช้จ่ายน้อยกว่า</li>
-                  <li>ทำงานได้รวดเร็วกว่า Web applicaion เพราะติดตั้งอยู่บนเครื่องของผู้ใช้งานโดยตรง ข้อเสีย</li>
-                </ul>
-                <p>
-                  <u>ข้อเสีย</u>
-                </p>
-                <ul>
-                  <li>การ Update โปรแกรมทำได้ยากกว่าเพราะต้องไป Update ที่เครื่องใช้งานทุกเครื่อง</li>
-                  <li>เนื่องจากโปรแกรมอยู่บนเครื่องของลูกค้าแต่ละเครื่องทำให้ลูกค้าแต่ละคนเจอปัญหาที่แตกต่างกันไป</li>
-                </ul>
-                <h2>Web application</h2>
-                <p class="text-indent">Web application คือโปรแกรม หรือ กลุ่มของโปรแกรม ที่ออกแบบให้ตรงตามความต้องการของลูกค้า โดยตัวโปรแกรมจะถูกติดตั้งไว้บน
-                  Server ซึ่งสามารถเข้าใช้งานได้ผ่าน Browser(Google chrome, Firefox, Internet Explorer, Safari).</p>
-                <p>
-                  <u>ข้อดี</u>
-                </p>
-                <ul>
-                  <li>ไม่ต้องติดตั้ง Software ทางฝั่งผู้ใช้งานแค่มี Browser ก็สามารถใช้งานได้เลย</li>
-                  <li>การ Update program แค่แก้ไขหรือ Copy โปรแกรมใหม่ไปไว้ที่ Server ก็สามารถใช้งานได้ทันที</li>
-                  <li>เนื่องจาก Update program ทำได้ง่าย ทำให้สะดวกต่อการพัฒนาต่อยอด</li>
-                </ul>
-                <p>
-                  <u>ข้อเสีย</u>
-                </p>
-                <ul>
-                  <li>ต้องมีเครื่อง Server</li>
-                  <li>ทำงานช้ากว่า Window application</li>
-                </ul>
+                <br/><br/>
+                <h3>การเชื่อมต่อระบบต่างๆ</h3>
+                <hr/>
+                <div class="row">
+                  <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h4>reCAPTCHA</h4>
+                        <img class="img-portfolio img-responsive" src="<?php echo ROOT.'img/ipst/2.jpg' ?>" alt="reCAPTCHA" />
+                      </div>
+                      <div class="col-md-6">
+                        <h4>Facebook login</h4>
+                        <img class="img-portfolio img-responsive" src="<?php echo ROOT.'img/other/1.jpg' ?>" alt="Facebook login" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -101,6 +91,11 @@ require_once("../config.php");
       <?php
         include DOCUMENT_ROOT.'include/services-footer.php';
       ?>
+      <section id="seo" class="call-to-action bg-primary">
+        <?php
+          include DOCUMENT_ROOT.'include/index-seo.php';
+        ?>
+      </section>
   </body>
 
   </html>

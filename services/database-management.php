@@ -58,41 +58,52 @@ require_once("../config.php");
           <div class="panel-body">
             <div class="panel-body row">
               <div class="cpl-md-12">
-                <h2>Window application</h2>
-                <p class="text-indent">Window application คือโปรแกรม หรือ กลุ่มของโปรแกรม ที่ออกแบบให้ตรงตามความต้องการของลูกค้า โดยทำงานอยู่บนระบบ
-                  Window ซึ่งจะต้องทำการติดตั้งลงบนเครื่องลูกค้าทุกเครื่องที่ต้องการใช้งาน.</p>
-                <p>
-                  <u>ข้อดี</u>
+                <h2>จัดการฐานข้อมูล, ออกรายงาน</h2>
+                <hr/>
+                <p class="text-indent">
+                  DBMS เป็นกลุ่มโปรแกรมที่ทำหน้าที่เป็นตัวกลางในระบบติดต่อระหว่างผู้ใช้กับฐานข้อมูล เพื่อจัดการและควบคุมความถูกต้อง ความซ้ำซ้อน
+                  และความสัมพันธ์ระหว่างข้อมูลต่างๆ ภายในฐานข้อมูล โดยปกติแล้วระบบฐานข้อมูลจะใช้สำหรับเก็บข้อมูล หากลูกค้าต้องการดึงข้อมูลแบบซับซ้อนเพื่อมาออกรางาน
+                  จึงจำเป็นต้องทำระบบเพื่อดึงข้อมูลสำหรับออกรายงาน ทางเรามีประสบการณ์การเขียนโปรแกรมดึงข้อมูลจากฐานข้อมูลมาแสดงเป็นรายงานแบบต่างๆมากมาย
+                  เช่น pdf, excel, word ฯลฯ
                 </p>
+                <h4>
+                  ทางเรามีประสบการณ์ในการออกแบบฐานข้อมูลต่างๆดังนี้
+                </h4>
                 <ul>
-                  <li>ไม่ต้องมีเครื่อง Server ทำให้เสียค่าใช้จ่ายน้อยกว่า</li>
-                  <li>ทำงานได้รวดเร็วกว่า Web applicaion เพราะติดตั้งอยู่บนเครื่องของผู้ใช้งานโดยตรง ข้อเสีย</li>
+                  <li>Mysql</li>
+                  <li>Oracle</li>
+                  <li>DB2</li>
                 </ul>
-                <p>
-                  <u>ข้อเสีย</u>
-                </p>
-                <ul>
-                  <li>การ Update โปรแกรมทำได้ยากกว่าเพราะต้องไป Update ที่เครื่องใช้งานทุกเครื่อง</li>
-                  <li>เนื่องจากโปรแกรมอยู่บนเครื่องของลูกค้าแต่ละเครื่องทำให้ลูกค้าแต่ละคนเจอปัญหาที่แตกต่างกันไป</li>
-                </ul>
-                <h2>Web application</h2>
-                <p class="text-indent">Web application คือโปรแกรม หรือ กลุ่มของโปรแกรม ที่ออกแบบให้ตรงตามความต้องการของลูกค้า โดยตัวโปรแกรมจะถูกติดตั้งไว้บน
-                  Server ซึ่งสามารถเข้าใช้งานได้ผ่าน Browser(Google chrome, Firefox, Internet Explorer, Safari).</p>
-                <p>
-                  <u>ข้อดี</u>
-                </p>
-                <ul>
-                  <li>ไม่ต้องติดตั้ง Software ทางฝั่งผู้ใช้งานแค่มี Browser ก็สามารถใช้งานได้เลย</li>
-                  <li>การ Update program แค่แก้ไขหรือ Copy โปรแกรมใหม่ไปไว้ที่ Server ก็สามารถใช้งานได้ทันที</li>
-                  <li>เนื่องจาก Update program ทำได้ง่าย ทำให้สะดวกต่อการพัฒนาต่อยอด</li>
-                </ul>
-                <p>
-                  <u>ข้อเสีย</u>
-                </p>
-                <ul>
-                  <li>ต้องมีเครื่อง Server</li>
-                  <li>ทำงานช้ากว่า Window application</li>
-                </ul>
+                <br/><br/>
+                <h3>รายงานแบบต่างๆที่เคยจัดทำ</h3>
+                <hr/>
+                <div class="row">
+                  <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h4>ออกใบเสร็จรับเงิน</h4>
+                        <a href="<?php echo ROOT.'img/sequot/quotation-detail1.pdf' ?>" title="ออกใบเสร็จรับเงิน" target="_blank">
+                          <img class="img-portfolio img-responsive" src="<?php echo ROOT.'img/sequot/5.jpg' ?>" alt="ออกใบเสร็จรับเงิน" />
+                        </a>
+                      </div>
+                      <div class="col-md-6">
+                        <h4>ใบเสนอราคาพร้อมรูปสินค้า</h4>
+                        <a href="<?php echo ROOT.'img/sequot/quotation-detail2.pdf' ?>" title="ใบเสนอราคาพร้อมรูปสินค้า" target="_blank">
+                          <img class="img-portfolio img-responsive" src="<?php echo ROOT.'img/sequot/6.jpg' ?>" alt="ใบเสนอราคาพร้อมรูปสินค้า" />
+                      </a>
+                      </div>
+                    </div>
+                    <br/>
+                    <div class="row">
+                      <div class="col-md-8 center">
+                        <h4>กราฟ สถิติ รายงานแบบสอบถาม</h4>
+                        <a href="<?php echo ROOT.'img/ipst/7.pdf' ?>" title="กราฟ สถิติ รายงานแบบสอบถาม" target="_blank">
+                        <img class="img-portfolio img-responsive" src="<?php echo ROOT.'img/ipst/6.jpg' ?>" alt="กราฟ สถิติ รายงานแบบสอบถาม" />
+                      </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -101,6 +112,11 @@ require_once("../config.php");
       <?php
         include DOCUMENT_ROOT.'include/services-footer.php';
       ?>
+      <section id="seo" class="call-to-action bg-primary">
+        <?php
+          include DOCUMENT_ROOT.'include/index-seo.php';
+        ?>
+      </section>
   </body>
 
   </html>

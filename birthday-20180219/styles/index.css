@@ -1,0 +1,82 @@
+body {
+    position: relative;
+    background: linear-gradient(to right, rgb(255, 175, 189), rgb(255, 195, 160));
+    font-size: 14px;
+}
+
+p {
+    text-indent: 50px;
+}
+
+h2,
+b {
+    color: #825517;
+}
+
+b {
+    font-size: 16px;
+}
+
+b.emo {
+    font-size: 20px;
+}
+
+.row.with-padding {
+    padding-bottom: 50px;
+}
+
+.border-image {
+    position: absolute;
+    top: 0;
+    background-image: url("../images/border-of-roses.png");
+    background-repeat: repeat-y;
+    width: 80px;
+    height: 1500px;
+    background-size: 385px;
+}
+
+.border-image__left {
+    left: 0;
+}
+
+.border-image__right {
+    right: 0;
+    transform: scaleX(-1);
+}
+
+.shuffle__image-container {
+    position: relative;
+}
+
+.shuffle__image-container img {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    border-radius: 10px 80px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.shuffle__image-container img.show {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 920px) {
+    .border-image {
+        display: none;
+    }
+}
+
+#image-1,
+#image-3 {
+    cursor: pointer;
+}
+
+#footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}

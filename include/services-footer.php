@@ -20,8 +20,9 @@ require_once("../config.php");
 
 <!-- Footer -->
 <footer>
-<section id="contact" class="contact">
-  <?php
-    include DOCUMENT_ROOT.'include/index-contact.php';
-  ?>
+  <section id="contact" class="contact">
+    <?php
+      include DOCUMENT_ROOT.'include/index-contact.php';
+    ?>
+  </section>
 </footer>

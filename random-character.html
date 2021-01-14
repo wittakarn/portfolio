@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Random character</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<div>
+    <span>
+        Character set:
+    </span>
+    <span>
+        <input id="characterSetInput" type="text" placeholder="e.g. a,x,e,ni,z" />
+    </span>
+</div>
+<div>
+    <span>
+        Random character size:
+    </span>
+    <span>
+        <input id="randomSizeInput" type="text" placeholder="e.g. 7" />
+    </span>
+</div>
+<div>
+    <input type="button" value="Random" onclick="onRandomClick()"/>
+</div>
+<h3 id="result"></h3>
+</body>
+
+<script>
+    const characterSetInputElement = document.querySelector('#characterSetInput');
+    const randomSizeInputElement = document.querySelector('#randomSizeInput');
+    const resultElement = document.querySelector('#result');
+    function onRandomClick() {
+        const charSet = characterSetInputElement.value.split(',');
+        const inputLength = charSet.length;
+        const rendomSize = Number(randomSizeInputElement.value);
+
+        let randomResult = '';
+        for (let i = 0; i < rendomSize; i++) {
+            randomResult += charSet[getRandomIndex(inputLength)];
+        }
+        
+        resultElement.innerHTML = randomResult;
+    }
+
+    function getRandomIndex(size) {
+        return Math.floor(Math.random() * size);
+    }
+</script>
+</html>

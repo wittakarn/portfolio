@@ -16,12 +16,25 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-body div.container{
+body div.panel.panel-default{
     margin-top: 80px;
 }
 
 body p.text-indent{
     text-indent: 50px;
+}
+
+body div.row .center{
+    float: none;
+    margin: auto;
+}
+
+body div.service-item, #seo a{
+    color: #fff;
+}
+
+body div.service-item:hover, #seo a:hover{
+    color: #F1D7D7;
 }
 
 .text-vertical-center {
