@@ -2,7 +2,6 @@
 ini_set('display_errors', 1); 
 error_reporting(E_ALL);
 require_once("config.php");
-include DOCUMENT_ROOT.'include/permission.php';
 ?>
 
   <!DOCTYPE html>
@@ -128,6 +127,13 @@ include DOCUMENT_ROOT.'include/permission.php';
     <section id="portfolio" class="portfolio">
       <?php
       include DOCUMENT_ROOT.'include/index-portfolio.php';
+      ?>
+    </section>
+
+    <!-- Demo application -->
+    <section id="demoApplication" class="portfolio">
+      <?php
+      include DOCUMENT_ROOT.'include/index-demo.php';
       ?>
     </section>
 
